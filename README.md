@@ -5,7 +5,9 @@ Two variants of a perceptron are implemented from scratch in Python to classify 
   <li>The parity of the inputs ∏xᵢ, i.e. the sign of their product, is positive or negative</li>
 </ol>
 
-<p><img width = 400 src="https://github.com/TomMakesThings/Perceptron/blob/assets/Images/Perceptron-Diagram.png"></p>
+<div align="center">
+  <img width = 400 src="https://github.com/TomMakesThings/Perceptron/blob/assets/Images/Perceptron-Diagram.png">
+</div>
 
 ## Network Initialisation
 During initialistion, learning rate was specified as 0.01, the maximum number of epochs set as 100 and the activation function set as the step function. The model's weights i = 1, ..., N are randomly initialised by sampling from a normal distribution with mean μ of 0 and variance σ of 1. The bias unit's weight is set as zero.
