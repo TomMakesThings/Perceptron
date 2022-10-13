@@ -22,5 +22,5 @@ The perceptron is set to train until the max number of epochs is reached, or sto
 To evaluate training, MSE is plotted over time. For the sum sign problem, both training and validation loss converge quickly to 0 allowing training to be stopped early. The network generalises well as is able to be trained to achieve 100% accuracy on unseen test data. By contrast, the product parity problem, loss does not converge and fluctuation can be observed due to the per sample, stochastic nature of weight updates. Attempting to train over a larger number of epochs and tune learning rate does not help model convergence. This is because the parity problem, which is a generalisation of the XOR problem, is not linearly separable. Therefore, unlike the sum problem, it is not solvable using a single-layer perceptron requires a multi-layer perceptron.
 
 <div align="center">
-  <img width = 400 src="https://github.com/TomMakesThings/Perceptron/blob/assets/Images/Training-Results.png">
+  <img width = 700 src="https://github.com/TomMakesThings/Perceptron/blob/assets/Images/Training-Results.png">
 </div>
