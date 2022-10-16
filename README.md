@@ -1,3 +1,11 @@
+<div align="center">
+  <h1>Perceptron for the Sum and Parity Problem</h1>
+  <p><b>Code by <a href="https://github.com/TomMakesThings">TomMakesThings</a></b></p>
+  <p><b><sub>December 2022</sub></b></p>
+</div>
+
+---
+
 # About
 Two variants of a perceptron are implemented from scratch in Python to classify 10 binary inputs (xᵢ = +/-1) according to whether:
 <ol type="I">
